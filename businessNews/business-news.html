@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business News</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <nav>
+        <div class="main-nav container flex">
+            <a href="../index.html" class="logo">
+                <img src="../assets/logo.png" alt="">
+            </a>
+            <div class="menu">
+                <input type="checkbox" id="check">
+                <label for="check" class="checkBtn">
+                    <i class="fa fa-bars mobIcon"></i>
+                </label>               
+                <ul class="list flex">
+                    <li class="item" id="business"><a href="../../businessNews/business-news.html">Business</a></li>
+                    <li class="item" id="sports"><a href="../../sportsNews/sports-news.html">Sports</a></li>
+                    <li class="item" id="finance"><a href="../../financeNews/finance-news.html">Finance</a></li>
+                    <li class="item" id="politics"><a href="../../politicsNews/politics-news.html">Politics</a></li>
+                </ul>
+            </div>
+            <div class="search-bar flex">
+                <input type="text" class="news-input" id="search-text" placeholder="Search Here">
+                <button id="search-button" type="submit" class="btn">Search</button>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="cards-container container flex" id="cards-container">
+        </div>
+    </main>
+    <section id="news-card-temp">
+        <div class="card">
+            <div class="cardheader">
+                <img src="../assets/business-news/news1.avif" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title"><a href="full-news/news1.html">
+                    Yes Bank Clarifies On Essel Group Loan Settlement By JC Flowers ARC
+                    </a>
+                </h3>
+                <h6 id="news-source" class="news-source">01/09/2023</h6>
+                <p class="news-desc" id="news-desc">Yes Bank Ltd. issued a clarification on the Essel Group loan settlement by JC Flowers Asset Reconstruction Pvt. on Monday. The bank clarified and denied any role in settlement or negotiation after the sale of loan portfolio to JC Flowers ARC, in an exchange filing</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="cardheader">
+                <img src="../assets/business-news/news2.avif" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title"><a href="full-news/news2.html">
+                    Hero MotoCorp To Invest Rs 550 Crore In Ather Energy's Rights Issue</h3>
+                </a>
+                <h6 id="news-source" class="news-source">01/09/2023</h6>
+                <p class="news-desc" id="news-desc">Hero MotoCorp Ltd.'s board has approved an investment of Rs 550 crore in electric two-wheeler maker Ather Energy Pvt.'s rights issue. The Splendor-maker, which currently holds 33.1% of Ather, will see its shareholding rise in the company. The transaction is expected to be completed before the end of September.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="cardheader">
+                <img src="../assets/business-news/news3.avif" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title"><a href="full-news/news3.html">
+                    Deficient Monsoon Poses Risk To Million Car Sales Target In Festive Season: Maruti Suzuki</h3>
+                </a>
+                <h6 id="news-source" class="news-source">01/09/2023</h6>
+                <p class="news-desc" id="news-desc">The auto industry's highest ever monthly sales in August indicate the carmakers' expectation of a bumper festive season, but another month of deficient monsoon may derail the momentum, according to Maruti Suzuki India Ltd.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="cardheader">
+                <img src="../assets/business-news/news4.webp" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title"><a href="full-news/news4.html">
+                    Amazon To Invest $3 Million In Nature-Based Projects In India</h3>
+                </a>
+                <h6 id="news-source" class="news-source">01/09/2023</h6>
+                <p class="news-desc" id="news-desc">E-commerce major Amazon on Monday said it will make an initial investment of $3 million in nature-based projects in India. The allocation is part of the company's $15 million fund it has allocated for nature-based projects in Asia Pacific (APAC).</p>
+            </div>
+        </div>
+        </div>
+    </section>
+</body>
+
+</html>

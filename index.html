@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhamaka News</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <nav>
+        <div class="main-nav container flex">
+            <a href="index.html" class="logo">
+                <img src="assets/logo.png" alt="">
+            </a>
+            <div class="menu">
+                <input type="checkbox" id="check">
+                <label for="check" class="checkBtn">
+                    <i class="fa fa-bars mobIcon"></i>
+                </label>              
+                <ul class="list flex">
+                    <li class="item" id="business"><a href="../../businessNews/business-news.html">Business</a></li>
+                    <li class="item" id="sports"><a href="../../sportsNews/sports-news.html">Sports</a></li>
+                    <li class="item" id="finance"><a href="../../financeNews/finance-news.html">Finance</a></li>
+                    <li class="item" id="politics"><a href="../../politicsNews/politics-news.html">Politics</a></li>
+                </ul>
+            </div>
+            <div class="search-bar flex">
+                <input type="text" class="news-input" id="search-text" placeholder="Search Here">
+                <button id="search-button" type="submit" class="btn">Search</button>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="cards-container container flex" id="cards-container">
+        </div>
+    </main>
+    <section id="news-card-temp">
+        <div class="card">
+            <div class="cardheader">
+                <img src="../assets/business-news/news1.avif" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title"><a href="/businessNews/full-news/news1.html">
+                    Yes Bank Clarifies On Essel Group Loan Settlement By JC Flowers ARC
+                    </a>
+                </h3>
+                <h6 id="news-source" class="news-source">01/09/2023</h6>
+                <p class="news-desc" id="news-desc">Yes Bank Ltd. issued a clarification on the Essel Group loan settlement by JC Flowers Asset Reconstruction Pvt. on Monday. The bank clarified and denied any role in settlement or negotiation after the sale of loan portfolio to JC Flowers ARC, in an exchange filing</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="cardheader">
+                <img src="../assets/business-news/news2.avif" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title"><a href="/businessNews/full-news/news2.html">
+                    Hero MotoCorp To Invest Rs 550 Crore In Ather Energy's Rights Issue</h3>
+                </a>
+                <h6 id="news-source" class="news-source">01/09/2023</h6>
+                <p class="news-desc" id="news-desc">Hero MotoCorp Ltd.'s board has approved an investment of Rs 550 crore in electric two-wheeler maker Ather Energy Pvt.'s rights issue. The Splendor-maker, which currently holds 33.1% of Ather, will see its shareholding rise in the company. The transaction is expected to be completed before the end of September.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="cardheader">
+                <img src="../assets/finance-news/news3.avif" alt="news-image" id="news-img">
+            </div>  
+            <div class="card-content">
+                <h3 id="news-title"><a href="/financeNews/full-news/news3.html">
+                    Bank credit outstanding to real estate rises to record Rs 28 lakh crore in July: RBI</h3>
+                </a>
+                <h6 id="news-source" class="news-source">01/09/2023</h6>
+                <p class="news-desc" id="news-desc">Bank credit to housing as well as commercial real estate witnessed nearly 38 per cent annual growth in July, taking the loan outstanding to the realty sector to a record Rs 28 lakh crore, as per the latest RBI data.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="cardheader">
+                <img src="../assets/finance-news/news4.avif" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title"><a href="/financeNews/full-news/news4.html">
+                    RBI in tight spot as interest rate differential with US narrows</h3>
+                </a>
+                <h6 id="news-source" class="news-source">01/09/2023</h6>
+                <p class="news-desc" id="news-desc">The Federal Reserve's latest move to raise its policy rate, marking the 11th increase in 12 meetings, has sparked widespread discussion in economic circles. The overnight interest rate at 5.25%-5.50% now stands at its highest level in 22 years, prompting the European Central Bank to follow suit with its 9th consecutive rate hike, reaching levels not seen since 2001.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="cardheader">
+                <img src="../assets/politics-news/news2.jpg" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title"><a href="/politicsNews/full-news/news2.html">
+                    BJP lauds 'President of Bharat' reference, says it underscores country's civilisational march</h3>
+                </a>
+                <h6 id="news-source" class="news-source">01/09/2023</h6>
+                <p class="news-desc" id="news-desc">The BJP responded positively to the use of the name "Bharat" for India in a G20 dinner invitation. The opposition criticized the government for undermining the idea of India as a "Union of States".</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="cardheader">
+                <img src="../assets/politics-news/news3.webp" alt="news-image" id="news-img">
+            </div>  
+            <div class="card-content">
+                <h3 id="news-title"><a href="/politicsNews/full-news/news3.html">
+                    Delhi court summons Arvind Kejriwal's wife after her name figures in voters list of 2 assembly seats</h3>
+                </a>
+                <h6 id="news-source" class="news-source">01/09/2023</h6>
+                <p class="news-desc" id="news-desc">Sunita Kejriwal, wife of Delhi Chief Minister Arvind Kejriwal, has been summoned by a Delhi court for allegedly violating the law by being enrolled in the voters list of two assembly constituencies. </p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="cardheader">
+                <img src="../assets/sports-news/news2.webp" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title"><a href="/sportsNews/full-news/news2.html">
+                    Max Verstappen Claims Record 10th Straight Formula One Win At Italian GP</h3>
+                </a>
+                <h6 id="news-source" class="news-source">01/09/2023</h6>
+                <p class="news-desc" id="news-desc">The 29-year-old has now won 12 of this season's races and is all but certain to claim his third consecutive F1 title after breaking a record he shared with Sebastian Vettel by winning in Zandvoort last weekend.
+                    </p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="cardheader">
+                <img src="../assets/sports-news/news3.webp" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title"><a href="/sportsNews/full-news/news3.html">
+                    Carlos Alcaraz, Daniil Medvedev Advance To US Open Round Of 16</h3>
+                </a>
+                <h6 id="news-source" class="news-source">01/09/2023</h6>
+                <p class="news-desc" id="news-desc">Carlos Alcaraz, looking to become the first man to successfully defend the title since Roger Federer in 2008, produced a flurry of magical shots en route to dispatching British 26th seed Dan Evans 6-2, 6-3, 4-6, 6-3.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="cardheader">
+                <img src="../assets/news3.avif" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title"><a href="/sportsNews/full-news/news4.html">
+                        IND vs PAK, Asia Cup 2023 Head-To-Head Stats: How Have India Fared Against Pakistan?</h3>
+                </a>
+                <h6 id="news-source" class="news-source">01/09/2023</h6>
+                <p class="news-desc" id="news-desc">India and Pakistan have met 16 times in the Asia Cup since the
+                    inception of the tournament in 1984. While 13 matches have been played under the traditional One-Day
+                    format.</p>
+            </div>
+        </div>
+
+    </section>
+</body>
+
+</html>

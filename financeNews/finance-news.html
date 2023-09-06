@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business News</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <nav>
+        <div class="main-nav container flex">
+            <a href="../index.html" class="logo">
+                <img src="../assets/logo.png" alt="">
+            </a>
+            <div class="menu">
+                <input type="checkbox" id="check">
+                <label for="check" class="checkBtn">
+                    <i class="fa fa-bars mobIcon"></i>
+                </label>               
+                <ul class="list flex">
+                    <li class="item" id="business"><a href="../../businessNews/business-news.html">Business</a></li>
+                    <li class="item" id="sports"><a href="../../sportsNews/sports-news.html">Sports</a></li>
+                    <li class="item" id="finance"><a href="../../financeNews/finance-news.html">Finance</a></li>
+                    <li class="item" id="politics"><a href="../../politicsNews/politics-news.html">Politics</a></li>
+                </ul>
+            </div>
+            <div class="search-bar flex">
+                <input type="text" class="news-input" id="search-text" placeholder="Search Here">
+                <button id="search-button" type="submit" class="btn">Search</button>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="cards-container container flex" id="cards-container">
+        </div>
+    </main>
+    <section id="news-card-temp">
+        <div class="card">
+            <div class="cardheader">
+                <img src="../assets/finance-news/news1.jpg" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title"><a href="full-news/news1.html">
+                    25% target for state debt levels for the short-term; Punjab most pressurized: BoB study
+                    </a>
+                </h3>
+                <h6 id="news-source" class="news-source">01/09/2023</h6>
+                <p class="news-desc" id="news-desc">Indian states need to do more to reduce their debt levels and bring them closer to the Fiscal Responsibility and Budget Management goal of 20%, a recent study by economists at Bank of Baroda stated.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="cardheader">
+                <img src="../assets/finance-news/news2.jpg" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title"><a href="full-news/news2.html">
+                    Debt crisis matter of great concern for world: PM Modi ahead of G20 Summit</h3>
+                </a>
+                <h6 id="news-source" class="news-source">01/09/2023</h6>
+                <p class="news-desc" id="news-desc">Debt crisis is a matter of great concern for the world, especially developing countries, Prime Minister Narendra Modi has said, as India looks at building consensus at the upcoming G20 summit to evolve a tangible framework to help the debt-ridden low income economies.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="cardheader">
+                <img src="../assets/finance-news/news3.avif" alt="news-image" id="news-img">
+            </div>  
+            <div class="card-content">
+                <h3 id="news-title"><a href="full-news/news3.html">
+                    Bank credit outstanding to real estate rises to record Rs 28 lakh crore in July: RBI</h3>
+                </a>
+                <h6 id="news-source" class="news-source">01/09/2023</h6>
+                <p class="news-desc" id="news-desc">Bank credit to housing as well as commercial real estate witnessed nearly 38 per cent annual growth in July, taking the loan outstanding to the realty sector to a record Rs 28 lakh crore, as per the latest RBI data.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="cardheader">
+                <img src="../assets/finance-news/news4.avif" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title"><a href="full-news/news4.html">
+                    RBI in tight spot as interest rate differential with US narrows</h3>
+                </a>
+                <h6 id="news-source" class="news-source">01/09/2023</h6>
+                <p class="news-desc" id="news-desc">The Federal Reserve's latest move to raise its policy rate, marking the 11th increase in 12 meetings, has sparked widespread discussion in economic circles. The overnight interest rate at 5.25%-5.50% now stands at its highest level in 22 years, prompting the European Central Bank to follow suit with its 9th consecutive rate hike, reaching levels not seen since 2001.</p>
+            </div>
+        </div>
+        </div>
+    </section>
+</body>
+
+</html>

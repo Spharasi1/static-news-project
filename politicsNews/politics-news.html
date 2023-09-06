@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business News</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <nav>
+        <div class="main-nav container flex">
+            <a href="../index.html" class="logo">
+                <img src="../assets/logo.png" alt="">
+            </a>
+            <div class="menu">
+                <input type="checkbox" id="check">
+                <label for="check" class="checkBtn">
+                    <i class="fa fa-bars mobIcon"></i>
+                </label>               
+                <ul class="list flex">
+                    <li class="item" id="business"><a href="../../businessNews/business-news.html">Business</a></li>
+                    <li class="item" id="sports"><a href="../../sportsNews/sports-news.html">Sports</a></li>
+                    <li class="item" id="finance"><a href="../../financeNews/finance-news.html">Finance</a></li>
+                    <li class="item" id="politics"><a href="../../politicsNews/politics-news.html">Politics</a></li>
+                </ul>
+            </div>
+            <div class="search-bar flex">
+                <input type="text" class="news-input" id="search-text" placeholder="Search Here">
+                <button id="search-button" type="submit" class="btn">Search</button>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="cards-container container flex" id="cards-container">
+        </div>
+    </main>
+    <section id="news-card-temp">
+        <div class="card">
+            <div class="cardheader">
+                <img src="../assets/politics-news/news1.avif" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title"><a href="full-news/news1.html">
+                    Congress harmed India more than British had done: Union minister Pratima Bhoumik
+                    </a>
+                </h3>
+                <h6 id="news-source" class="news-source">01/09/2023</h6>
+                <p class="news-desc" id="news-desc">She stated that the people would not vote for the Congress due to its involvement in corruption during the UPA government. Bhoumik expressed confidence that the BJP would win the by-elections in Tripura's Dhanpur and Boxanagar constituencies. </p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="cardheader">
+                <img src="../assets/politics-news/news2.jpg" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title"><a href="full-news/news2.html">
+                    BJP lauds 'President of Bharat' reference, says it underscores country's civilisational march</h3>
+                </a>
+                <h6 id="news-source" class="news-source">01/09/2023</h6>
+                <p class="news-desc" id="news-desc">The BJP responded positively to the use of the name "Bharat" for India in a G20 dinner invitation. The opposition criticized the government for undermining the idea of India as a "Union of States".</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="cardheader">
+                <img src="../assets/politics-news/news3.webp" alt="news-image" id="news-img">
+            </div>  
+            <div class="card-content">
+                <h3 id="news-title"><a href="full-news/news3.html">
+                    Delhi court summons Arvind Kejriwal's wife after her name figures in voters list of 2 assembly seats</h3>
+                </a>
+                <h6 id="news-source" class="news-source">01/09/2023</h6>
+                <p class="news-desc" id="news-desc">Sunita Kejriwal, wife of Delhi Chief Minister Arvind Kejriwal, has been summoned by a Delhi court for allegedly violating the law by being enrolled in the voters list of two assembly constituencies. </p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="cardheader">
+                <img src="../assets/politics-news/news4.jpg" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title"><a href="full-news/news4.html">
+                    Karnataka, TN CMs oppose renaming India as Congress, DMK call it NDA’s panic reaction fearing defeat</h3>
+                </a>
+                <h6 id="news-source" class="news-source">01/09/2023</h6>
+                <p class="news-desc" id="news-desc">The Chief Ministers of Karnataka and Tamil Nadu, along with their party members, have opposed the idea of renaming India as Bharat. They argue that the Constitution recognizes the country as India and there is no need for a name change. </p>
+            </div>
+        </div>
+        </div>
+    </section>
+</body>
+
+</html>
